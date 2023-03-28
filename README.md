@@ -7,6 +7,8 @@
 -> Docker
 
 # Steps to follow:
+By Following these steps you will able to setup the hadoop setup on docker container                                    
+                                                                                                                      
 Step 1: Clone the "docker-hadoop" repository from GitHub using the following command:                                   
 git clone https://github.com/aifuu/Docker-on-Hadoop.git
 
