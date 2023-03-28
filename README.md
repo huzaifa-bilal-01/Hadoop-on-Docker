@@ -23,7 +23,8 @@ docker exec -it namenode /bin/bash
 
 # Running Hadoop Code:
 
-Step 1: Copy the code folder on docker conatiner by running this command:        
+Step 1: Copy the code folder on docker conatiner by running this command on the terminal (opened in the folder where you have cloned the repo):
+                                                                                                                                           
 docker cp code namenode:/                                                              
                                                                                                                         
 Step 2: Then go into Hadoop_Code directory and further into input directory from where you have to copy the data.txt file
@@ -33,7 +34,7 @@ Step 3: Create some directories in hadoop file system by following command:
       -> hdfs dfs -mkdir /user/root                                                                                                 
       -> hdfs dfs -mkdir /user/root/input                                                                                        
                                                                                                                                                       
-Step 4: Copy the data.txt to the input directory (user/root/input) created in hadoop file system by following command:
+Step 4: Copy the data.txt to the input directory (user/root/input) created in hadoop file system by following command:                   
       -> hdfs dfs -put data.txt /user/root/input                                                                            
                                                                                                                                           
 Step 5: Return back to directory where wordCount.jar file is located:                                                    
